@@ -1,0 +1,192 @@
+* {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.title {
+    text-align: center;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid #e554;
+}
+section {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.fa {
+    font-size: 1em;
+    font-weight: 100;
+    padding-block: 20px;
+}
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 2em;
+    align-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 0.9em;
+
+}
+.navbar {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    z-index: 5;
+    top: 0;
+    background: #2225;
+}
+.navbar-nav {
+    padding: 0.2em; 
+    font-size: 2em; 
+}
+.navbar-brand {
+    font-weight: 400;
+    font-variant: small-caps;
+}
+.navbar-brand span {
+    font-weight: 300;
+}
+
+.hero {
+    height: calc(100vh - 6em);
+    width: 100%;
+    background: url(../img/bg.jpeg);
+    background-position: center right;
+    background-size: cover;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+.hero .slogan {
+    padding: 10px 0;
+    border-top: 1px solid teal;
+    border-bottom: 1px solid teal;
+    font-family: cursive;
+    width: fit-content;
+    font-variant: small-caps;
+    text-transform: capitalize;
+}
+
+
+
+.about-img {
+    background: url(../img/about.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.about-text {
+    padding: 3em;
+}
+
+.tours-section {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+.tours {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tour {
+    width: 18rem;
+    box-shadow: 0 0 1px ;
+    text-align: center;
+    margin: 20px 10px;
+    background: white;
+}
+.tour .tour-img1 {
+    width: 100%;
+    height: 200px;
+    background: url(../img/pyramid.jpeg);
+    background-size: cover;
+    background-position:  center center;
+}
+.tour .tour-img2 {
+    width: 100%;
+    height: 200px;
+    background: url(../img/algeria.jpg);
+    background-size: cover;
+    background-position:  center center;
+}
+.tour .tour-img3 {
+    width: 100%;
+    height: 200px;
+    background: url(../img/tunisa.jpeg);
+    background-size: cover;
+    background-position:  center center;
+}
+
+.tour .tour-info {
+    padding: 20px 0;
+}
+.tour .price {
+    padding: 5px;
+    margin : 20px 0;
+}
+
+.card {
+    width: 18rem;
+    text-align: center;
+    margin: 20px 10px;
+    background: white;
+}
+.card-img {
+    height: 100%;
+}
+
+.services-section {
+    padding-top: 5em;
+    padding-bottom: 5em; 
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+
+.contact-section {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+.contact {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.mapouter {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 100%;
+  width: 300px;
+  margin: 0 auto;
+ }
+ .contact .col-md {
+     height: 199%;
+     border-left: 1px solid #8888;
+ }
+
+ .social-media {
+     display: flex;
+     justify-content: space-around;
+     font-size: 1.8em;
+     width: 40%;
+     margin: 0 auto;
+     padding-top: 2em;
+ }
